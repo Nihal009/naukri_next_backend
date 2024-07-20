@@ -30,8 +30,7 @@ This guide provides comprehensive instructions for setting up and running the Dj
 
    Replace `your_project_directory` with the name of your cloned project directory.
 
-## Setting Up the Virtual Environment (Not neccessary for this project)
-
+## Setting Up the Virtual Environment 
 1. **Create a Virtual Environment**
 
    To isolate the project dependencies, create a virtual environment by executing:
@@ -64,7 +63,8 @@ This guide provides comprehensive instructions for setting up and running the Dj
    pip install -r requirements.txt
    ```
 
-## Environment Variables
+## Environment Variables (Not neccessary for this project)
+
 
 1. **Create a `.env` File**
 
