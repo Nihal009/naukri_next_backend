@@ -30,7 +30,7 @@ This guide provides comprehensive instructions for setting up and running the Dj
 
    Replace `your_project_directory` with the name of your cloned project directory.
 
-## Setting Up the Virtual Environment
+## Setting Up the Virtual Environment (Not neccessary for this project)
 
 1. **Create a Virtual Environment**
 
@@ -158,5 +158,3 @@ For further assistance, consult the [Django documentation](https://docs.djangopr
 
 Contributions to the project are welcome. Please submit a pull request with your changes and adhere to the project's contribution guidelines outlined in the repository.
 ```
-
-Replace `your_username`, `your_repository`, and `your_project_directory` with the appropriate values specific to your setup.
