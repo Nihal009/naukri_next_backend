@@ -1,6 +1,4 @@
-Here's the entire guide formatted in Markdown:
 
-```markdown
 # Django API Setup and Running Guide
 
 ## Introduction
