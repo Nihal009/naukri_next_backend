@@ -14,7 +14,7 @@ def fetch_jobs(search_term, location="Dallas, TX", results_wanted=20, hours_old=
     
     # Convert DataFrame to list of dicts and handle NaN values
     job_list = []
-    for job in jobs.to_dict(orient='records'):  # Convert DataFrame to list of dicts
+    for job in jobs.to_dict(orient='records'):
         job_data = {
             'id': job.get('id'),
             'site': job.get('site'),
