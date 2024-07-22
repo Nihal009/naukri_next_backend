@@ -20,6 +20,7 @@ def fetch_jobs(search_term, location="Dallas, TX", results_wanted=20, hours_old=
             'site': job.get('site'),
             'job_url_direct': job.get('job_url'),
             'title': job.get('title'),
+            'description':str(job.get('description','')).replace('\n',' '),
             'company': job.get('company'),
             'location': job.get('location'),
             'logo_photo_url': job.get('logo_photo_url')
